@@ -20,4 +20,4 @@ The second main folder titled ‘Metadata and Texts’ is the code based on whic
 
 The third main folder titled ‘Scrapers’ contains anew Juypiter Notebooks which scrape the Britishpoliticalspeech archive for respectively speech's metadata (CSV scraper) and the texts themselves (most importantly the TXT scraper). 
 
-Finally, the repository contains two more individual jupyter notebooks, the ‘mynewbook’, which is an auto-generated file and Juypiter Notebook used to conduct the stylometric analysis.
+Finally, the repository contains two more individual jupyter notebooks, the ‘mynewbook’, which is an auto-generated file, a Juypiter Notebook used to conduct the stylometric analysis and the Data Management Plan using the ‘Science Europe Template’.
