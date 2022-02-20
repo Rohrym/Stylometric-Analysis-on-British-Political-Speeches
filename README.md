@@ -20,6 +20,8 @@ The contents of the repo and this folder should be identical. This folder contai
 
 The third main folder titled ‘Metadata and Texts’ is the code based on which the JB is generated and contains a zipped (compressed) file with the whole set of texts and a CSV file with all the metadata. Most TXT files and the CSV file have been scraped, however TXT files for Winston Churchill's speeches have been manually added.
 
-The fourth main folder titled ‘Scrapers’ contains anew Juypiter Notebooks which scrape the Britishpoliticalspeech archive for respectively speech's metadata (CSV scraper) and the texts themselves (most importantly the TXT scraper). 
-
 Finally, the repository contains a few more files, the ‘mynewbook’, which is an auto-generated file, a license and the Data Management Plan using the ‘Science Europe Template’.
+
+Following the best practices of the Data Management Plan, a new registration as a separate “Data” component with a unique DOI was generated.
+
+The Data component aggregates the set of data was utilised to guide this effort. Titled as ‘Scrapers’, it contains anew Juypiter Notebooks which scraped the Britishpoliticalspeech archive for respectively speech's metadata (CSV scraper) and the texts themselves (most importantly the TXT scraper). The selected variables of the dataset are the following: 'id', which was generated to uniquely identify every tuple, the 'speaker', the full name of each politician, accompanied by First, optional Middle and (a set of) Surname(s), 'party', indicating the MPs, Parliamentarians / Political groups / formations, 'location', the place where each speech took place, 'date', the exact day/month/year the speech was delivered, 'name speech', a generated title and lastly the 'speech'.
