@@ -20,7 +20,7 @@ The contents of the repo and this folder should be identical. This folder contai
 
 The third main folder titled ‘Metadata and Texts’ is the data based on which the Juypiter Book is generated and contains a zipped (compressed) file with the whole set of texts and a CSV file with all the metadata. Most TXT files and the CSV file have been scraped, however TXT files for Winston Churchill's speeches (speeches 355 to 364) have been manually added.
 
-The fourth main folder, titled as ‘Scrapers’, contains anew Juypiter Notebooks which scraped the Britishpoliticalspeech archive for respectively speech's metadata (CSV scraper) and the texts themselves (most importantly the TXT scraper). The selected variables of the dataset are the following: 'id', which was generated to uniquely identify every tuple, the 'speaker', the full name of each politician, accompanied by First, optional Middle and (a set of) Surname(s), 'party', indicating the MPs, Parliamentarians / Political groups / formations, 'location', the place where each speech took place, 'date', the exact day/month/year the speech was delivered, 'name speech', a generated title and lastly the 'speech'.
+The fourth main folder, titled as ‘Scrapers’, contains anew Juypiter Notebooks which scraped the Britishpoliticalspeech archive for respectively speech's metadata (CSV scraper) and the texts themselves (most importantly the TXT scraper).
 
 Finally, the repository contains a few more files, the ‘mynewbook’, which is an auto-generated file, a Creative Commons Attribution 4.0 International Public License and the Data Management Plan using the ‘Science Europe Template’.
 
