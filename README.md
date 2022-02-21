@@ -7,7 +7,7 @@ The whole process we have documented in a Juypiter Books format which can be fou
 
 This file constitutes a guide of the repository containing all the relevant information for the existing holdings of the Project. 
 
-The first main folder titled 'Analysis' contains a Juypiter Notebook used to conduct the stylometric Analysis of the collected texts. 
+The first main folder titled 'Analysis' contains two Juypiter Notebooks. One used to do some initial exploratory analysis and another to conduct the stylometric Analysis of the collected texts. The first Notebook makes use of the 'metadata.csv' file and the second makes use of the TXT files. All are found in the third folder. 
 
 The second main folder ‘JupyterBookChurchill’ forms the basis of the Juypiter Books website. Due to some issues with hosting the Juypiter Book from this repository we have opted to host from a different repository which can be found [here.](https://github.com/PaschalisAg/jupy_book_churchill)
 The contents of the repo and this folder should be identical. This folder contains eight holdings in total:
